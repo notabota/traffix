@@ -246,7 +246,7 @@ for vehicle in vehicles:
     speed_result[vehicle] = {
         'count': vehicles[vehicle].count,
         'speed': vehicles[vehicle].speed_value,
-        'timestamp': vehicles[vehicle].speed_timestamp
+        'speed_timestamp': vehicles[vehicle].speed_timestamp
     }
 
 print(speed_result)
