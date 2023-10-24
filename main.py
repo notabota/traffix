@@ -14,7 +14,7 @@ logging.getLogger("ultralytics").setLevel(logging.WARNING)
 torch.cuda.set_device(0)
 
 model = YOLO('models/model_- 14 october 2023 16_46.pt')
-filename = 'cam_5m.mp4'
+filename = 'cam2_2m30.mp4'
 source = 'data/samples/' + filename
 tracker = BYTETracker()
 cap = cv2.VideoCapture(source)
